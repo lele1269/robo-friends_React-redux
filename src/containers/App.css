@@ -1,0 +1,26 @@
+
+.title{
+    font-family: 'Righteous', cursive;
+    font-weight: 500;
+    font-size: 4rem;
+        /* ff 3.6+ */
+    background:-moz-linear-gradient(17deg, rgba(255, 59, 59, 1) 0%, rgba(44, 32, 190, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(17deg, rgba(255, 59, 59, 1) 0%, rgba(44, 32, 190, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(17deg, rgba(255, 59, 59, 1) 0%, rgba(44, 32, 190, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF3B3B', endColorstr='#2C20BE', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(17deg, rgba(255, 59, 59, 1) 0%, rgba(44, 32, 190, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(17deg, rgba(255, 59, 59, 1) 0%, rgba(44, 32, 190, 1) 100%);
+    
+    background-clip: text;
+    color: transparent;
+}
