@@ -5,8 +5,6 @@ import '../containers/App.css';
 import Scroll from "../components/Scroll";
 import ErrorBoundry from "../components/ErrorBoundry";
 
-
-
 function App(){
 
     //utilizzo degli hook
